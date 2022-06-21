@@ -86,13 +86,31 @@ body {
 }
 
 main {
-    display: flex;
-    margin-top: 100px;
+    margin: 120px 35px;
 }
 
 .main_section {
-    margin: 30px 35px;
-    padding: 0 25px;
+    margin-bottom: 30px;
+}
+
+.profile-photo {
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+.about-section {
+    display: flex;
+}
+
+.about-me {
+    align-self: center;
+    color: var(--dark-slate);
+    background-color: #e6f1ff;
+    font-size: 1rem;
+    line-height: 22px;
+    padding: 50px 20px 70px 20px;
+    max-width: 700px;
+    border-radius: 0 5px 5px 0;
 }
 
 @media screen and (max-width: 768px) {
