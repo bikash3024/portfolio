@@ -123,4 +123,16 @@ main {
     .intro {
         font-size: 2rem;
     }
+    .about-section {
+        display: grid;
+        grid-template-areas: "top" "bottom";
+    }
+    .profile-photo-container {
+        grid-area: bottom;
+        text-align: center;
+    }
+    .about-me {
+        grid-area: top;
+        border-radius: 5px;
+    }
 }
