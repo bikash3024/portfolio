@@ -131,8 +131,12 @@ main {
         grid-area: bottom;
         text-align: center;
     }
+    .profile-photo {
+        width: 90%;
+        border-radius: 0 0 5px 5px;
+    }
     .about-me {
         grid-area: top;
-        border-radius: 5px;
+        border-radius: 5px 5px 0 0;
     }
 }
